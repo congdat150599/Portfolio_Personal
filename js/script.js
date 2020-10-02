@@ -1,6 +1,5 @@
 
 
-
 // show tag message
 
 var mess1 = document.getElementById('mess_1');
@@ -64,6 +63,23 @@ navbarScroll();
 
 
 
+
+
+//menu navbar
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  });
+});
+
+
+
+
 //
 function backToTop(){
 	//Scroll back to top button
@@ -106,14 +122,5 @@ function backToTop(){
 
 // backToTop();
 
-//menu navbar
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-links li");
 
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-  links.forEach(link => {
-    link.classList.toggle("fade");
-  });
-});
+

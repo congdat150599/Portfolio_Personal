@@ -60,33 +60,28 @@ body{
 		.instagram:hover{
 			width: 60px;
 			cursor: pointer;
-			// background-color: var(--pink-light);
 			border:none;
 		}
 		.facebook:hover{
 			width: 60px;
 			cursor: pointer;
-			// background-color: var(--blue-sky);
 			border:none;
 		}
 		.youtube:hover{
 			width: 60px;
 			cursor: pointer;
-			// background-color: var(--red-light);
 			border:none;
 		}
 	}
 }
 
 header{
-	// border:1px solid red;
 	width: 100%;
 	height: 70rem;
 	.navbar{
 		width: 100%;
 		height: 5rem;
 		display: flex;
-		// box-shadow: -1px 0px 5px 5px var(--gray-shadow);
 		background-color: var(--gray-heavy);
 		.logo{
 			width: 30%;
@@ -104,9 +99,11 @@ header{
 			ul{
 				display: flex;
 				margin:1.8rem 8rem 2rem auto;
-				width: 40%;
+				width: 55%;
+			    margin-right: 2%;
 				li{
-					margin-right: 5rem;
+					// margin-right: 5rem;
+					margin:auto auto auto 5%;
 					font-size: 1.5rem;
 					font-family: var(--Serif);
 					a{
@@ -133,6 +130,7 @@ header{
 			display: flex;
 			position: relative;
 			.left{
+
 				width: 50%; 
 				height: 100%;  	
 				z-index: 1;	
@@ -182,10 +180,12 @@ header{
 						font-size: 20px;
 						margin-top:4rem;
 						margin-left: 5rem;
+
 						.about_me{
 							border-radius: .5rem;
 							font-size: 15px;
 							padding: 6px;
+							outline: none;
 						}
 						.about_me:hover{
 							cursor: pointer;
@@ -196,6 +196,7 @@ header{
 							border-radius: .5rem;
 							font-size: 15px;
 							padding: 6px;
+							outline: none;
 						}
 						.down_cv:hover{
 							cursor: pointer;
@@ -490,19 +491,32 @@ header{
 					width: 50px;
 					height: 50px;
 					z-index: 3;
-					top: 12rem;
-					left: 6.5rem;
+					top: 25rem;
+					right: 64.5rem;
 					background-image: url("../images/php.png");
 					background-size: 100% 100%;
 					background-repeat: no-repeat;
 					background-color: white;
+				}
+				.laravel{
+					position: absolute;
+					width: 50px;
+					height: 50px;
+					z-index: 3;
+					top: 52rem;
+					right: 64.5rem;
+					background-image: url("../images/laravel.png");
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					background-color: white;
+
 				}
 				.nodejs{
 					position: absolute;
 					width: 50px;
 					height: 50px;
 					z-index: 3;
-					bottom: 15rem;
+					top: 11rem;
 					right: 15rem;
 					background-image: url("../images/nodejs.png");
 					background-size: 100% 100%;
@@ -510,25 +524,13 @@ header{
 					background-color: white;
 
 				}
-				.laravel{
-					position: absolute;
-					width: 50px;
-					height: 50px;
-					z-index: 3;
-					bottom: 30rem;
-					left: 6.5rem;
-					background-image: url("../images/laravel.png");
-					background-size: 100% 100%;
-					background-repeat: no-repeat;
-					background-color: white;
-
-				}
+				
 				.react{
 					position: absolute;
 					width: 50px;
 					height: 50px;
 					z-index: 3;
-					top: 25rem;
+					top: 38rem;
 					right: 15rem;
 					background-image: url("../images/react.jpg");
 					background-size: 100% 100%;
@@ -708,7 +710,8 @@ header{
 			}
 			#message_pro_1{
 				clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 11% 100%, 21% 75%, 0% 75%);
-				margin: -10rem auto auto 22rem;
+				margin: -10rem auto auto 87rem;
+				width: 450px;
 			}
 			#message_pro_2{
 				clip-path: polygon(0% 0%, 100% 0, 100% 75%, 74% 76%, 93% 100%, 49% 75%, 0% 75%);

@@ -80,9 +80,10 @@ header {
       header .navbar .menu ul {
         display: flex;
         margin: 1.8rem 8rem 2rem auto;
-        width: 40%; }
+        width: 55%;
+        margin-right: 2%; }
         header .navbar .menu ul li {
-          margin-right: 5rem;
+          margin: auto auto auto 5%;
           font-size: 1.5rem;
           font-family: var(--Serif); }
           header .navbar .menu ul li a {
@@ -143,7 +144,8 @@ header {
             header .intro .items_orig .circle .about .ab_btn .about_me {
               border-radius: .5rem;
               font-size: 15px;
-              padding: 6px; }
+              padding: 6px;
+              outline: none; }
             header .intro .items_orig .circle .about .ab_btn .about_me:hover {
               cursor: pointer;
               background-color: var(--gray-light);
@@ -151,7 +153,8 @@ header {
             header .intro .items_orig .circle .about .ab_btn .down_cv {
               border-radius: .5rem;
               font-size: 15px;
-              padding: 6px; }
+              padding: 6px;
+              outline: none; }
             header .intro .items_orig .circle .about .ab_btn .down_cv:hover {
               cursor: pointer;
               background-color: var(--gray-light);
@@ -382,20 +385,9 @@ header {
           width: 50px;
           height: 50px;
           z-index: 3;
-          top: 12rem;
-          left: 6.5rem;
+          top: 25rem;
+          right: 64.5rem;
           background-image: url("../images/php.png");
-          background-size: 100% 100%;
-          background-repeat: no-repeat;
-          background-color: white; }
-        .content_main .main .info_backend .item_image_back .nodejs {
-          position: absolute;
-          width: 50px;
-          height: 50px;
-          z-index: 3;
-          bottom: 15rem;
-          right: 15rem;
-          background-image: url("../images/nodejs.png");
           background-size: 100% 100%;
           background-repeat: no-repeat;
           background-color: white; }
@@ -404,9 +396,20 @@ header {
           width: 50px;
           height: 50px;
           z-index: 3;
-          bottom: 30rem;
-          left: 6.5rem;
+          top: 52rem;
+          right: 64.5rem;
           background-image: url("../images/laravel.png");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-color: white; }
+        .content_main .main .info_backend .item_image_back .nodejs {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          z-index: 3;
+          top: 11rem;
+          right: 15rem;
+          background-image: url("../images/nodejs.png");
           background-size: 100% 100%;
           background-repeat: no-repeat;
           background-color: white; }
@@ -415,7 +418,7 @@ header {
           width: 50px;
           height: 50px;
           z-index: 3;
-          top: 25rem;
+          top: 38rem;
           right: 15rem;
           background-image: url("../images/react.jpg");
           background-size: 100% 100%;
@@ -555,7 +558,8 @@ header {
             line-height: 1.5; }
       .content_main .main .info_my_work #message_pro_1 {
         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 11% 100%, 21% 75%, 0% 75%);
-        margin: -10rem auto auto 22rem; }
+        margin: -10rem auto auto 87rem;
+        width: 450px; }
       .content_main .main .info_my_work #message_pro_2 {
         clip-path: polygon(0% 0%, 100% 0, 100% 75%, 74% 76%, 93% 100%, 49% 75%, 0% 75%);
         margin: 72.5rem auto auto -16rem;
